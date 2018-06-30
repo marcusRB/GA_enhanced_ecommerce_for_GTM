@@ -1,0 +1,23 @@
+<script>
+window.dataLayer = window.dataLayer || []
+dataLayer.push({
+   'transactionId': '1234',
+   'transactionAffiliation': 'Moda Filomena',
+   'transactionTotal': 38.26,
+   'transactionTax': 1.29,
+   'transactionShipping': 5,
+   'transactionProducts': [{
+       'sku': 'DD44',
+       'name': 'Camiseta',
+       'category': 'Indumentaria',
+       'price': 11.99,
+       'quantity': 1
+   },{
+       'sku': 'AA1243544',
+       'name': 'Calcetines',
+       'category': 'Indumentaria',
+       'price': 9.99,
+       'quantity': 2
+   }]
+});
+</script>
