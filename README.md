@@ -33,3 +33,22 @@ The following sections will show you how to use the data layer to measure the fo
 - [Checkout](https://developers.google.com/tag-manager/enhanced-ecommerce#checkout)
 - [Purchases](https://developers.google.com/tag-manager/enhanced-ecommerce#purchases)
 - [Refunds](https://developers.google.com/tag-manager/enhanced-ecommerce#refunds)
+
+
+
+### Measuring Product Impressions
+
+- Ecommerce Measurement: 
+
+impressions
+- Accepts Data: array of 
+
+impressionFieldObjects
+
+Measure product impressions by using the 
+
+impression action and one or more 
+
+impressionFieldObjects. The following example assumes details about the products displayed on a page are known at the time the page loads:
+
+- [JS FILE](https://github.com/marcusRB/GAecommerce/blob/master/productimpressionsdetails.js)
