@@ -95,3 +95,28 @@ detail action to the data layer, along with one or more 
 productFieldObjects representing the products being viewed:
 
 - [JS FILE](https://github.com/marcusRB/GAecommerce/blob/master/productDetails_measuringView.js)
+
+### Measuring Promotions
+
+### 
+
+You can measure both impressions and clicks on internal site promotions, such as banners displayed on the site itself advertising a sale on a particular subset of products, or an offer for free shipping.
+
+#### Measuring Promotion Impressions
+
+### 
+
+- Ecommerce Measurement: 
+
+promoView
+- Accepts Data: array of 
+
+promoFieldObjects
+
+To measure a promotion impression, set the 
+
+promoView key in your ecommerce data layer var to a 
+
+promoFieldObject that describes the promotions displayed to users on the page:
+
+- [JS FILE](https://github.com/marcusRB/GAecommerce/blob/master/impresionPromo.js)
