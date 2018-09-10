@@ -52,3 +52,46 @@ impression action and one or more 
 impressionFieldObjects. The following example assumes details about the products displayed on a page are known at the time the page loads:
 
 - [JS FILE](https://github.com/marcusRB/GAecommerce/blob/master/productimpressionsdetails.js)
+
+
+### Measuring Product Clicks
+
+### 
+
+- Ecommerce Measurement: 
+
+click
+- Accepts Data: 
+
+list, array of 
+
+productFieldObjects
+
+Measure clicks on product links by pushing a 
+
+click action to the data layer, along with a 
+
+productFieldObjectto represent the clicked product, as in this example:
+
+- [JS FILE](https://github.com/marcusRB/GAecommerce/blob/master/productclickanddetails-gtm.js)
+
+### Measuring Views of Product Details
+
+### 
+
+- Ecommerce Measurement: 
+
+detail
+- Accepts Data: 
+
+list, array of 
+
+productFieldObjects
+
+Measure a view of product details by pushing a 
+
+detail action to the data layer, along with one or more 
+
+productFieldObjects representing the products being viewed:
+
+- [JS FILE](https://github.com/marcusRB/GAecommerce/blob/master/productDetails_measuringView.js)
